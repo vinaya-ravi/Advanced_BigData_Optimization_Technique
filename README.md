@@ -13,7 +13,7 @@ The workflow of the project involves several stages:
 The dataset is loaded and analyzed to identify outliers and visualize key relationships, such as that between price and quantity. This step helps in understanding the underlying data distribution and informs subsequent processing.
 
 **B.Optimization Techniques:**<br>
-The core part of the project is the implementation of four optimization techniques:
+The core part of the project is the implementation of four optimization techniques:<br>
 **Resource Optimization:**<br>
 Multiprocessing is used to execute CPU-intensive tasks in parallel. The dataset is divided into chunks, and operations such as squaring the price values are performed concurrently.<br>
 **Data Partitioning:**<br>
@@ -50,11 +50,11 @@ Fault tolerance and resource optimization are essential for financial and health
 **Conclusion**<br>
 The study demonstrates that combining multiple optimization strategies can lead to substantial improvements in big data processing. By integrating resource optimization, data partitioning, load balancing, and fault tolerance, the project achieves enhanced speed, reliability, and resilience, making it a versatile solution for various data-intensive applications. 
 
-Authors
-Vinaya Varshini Ravichandran (vinayavarshiniravichandran@my.unt.edu)
-Yasaswini Konapalli (yasaswinikonapalli@my.unt.edu)
-Anuraag Akuthota (anuraagakuthota@my.unt.edu)
-Nikitha Muthyala (nikhitha.muthyala@unt.edu)
+Authors<br>
+Vinaya Varshini Ravichandran (vinayavarshiniravichandran@my.unt.edu)<br>
+Yasaswini Konapalli (yasaswinikonapalli@my.unt.edu)<br>
+Anuraag Akuthota (anuraagakuthota@my.unt.edu)<br>
+Nikitha Muthyala (nikhitha.muthyala@unt.edu)<br>
 Rohita Pingili (rohitapingili@my.unt.edu)
 
 Department of Computer Science, University of North Texas
