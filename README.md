@@ -1,4 +1,4 @@
-**Analysis on Optimizing Big Data Processing for Reliability and Performance**<br>
+**Analysis on Optimizing Big Data Processing for Reliability and Performance - README**<br>
 
 **Overview**<br>
 This project investigates multiple optimization techniques aimed at enhancing the performance, reliability, and resilience of big data processing systems. It explores four key techniques—Resource Optimization, Data Partitioning, Load Balancing, and Fault Tolerance—using a synthetic dataset to simulate real-world challenges.
@@ -14,7 +14,6 @@ The dataset is loaded and analyzed to identify outliers and visualize key relati
 
 **B.Optimization Techniques:**<br>
 The core part of the project is the implementation of four optimization techniques:
-
 **Resource Optimization:**<br>
 Multiprocessing is used to execute CPU-intensive tasks in parallel. The dataset is divided into chunks, and operations such as squaring the price values are performed concurrently.<br>
 **Data Partitioning:**<br>
@@ -50,3 +49,12 @@ Fault tolerance and resource optimization are essential for financial and health
 
 **Conclusion**<br>
 The study demonstrates that combining multiple optimization strategies can lead to substantial improvements in big data processing. By integrating resource optimization, data partitioning, load balancing, and fault tolerance, the project achieves enhanced speed, reliability, and resilience, making it a versatile solution for various data-intensive applications. 
+
+Authors
+Vinaya Varshini Ravichandran (vinayavarshiniravichandran@my.unt.edu)
+Yasaswini Konapalli (yasaswinikonapalli@my.unt.edu)
+Anuraag Akuthota (anuraagakuthota@my.unt.edu)
+Nikitha Muthyala (nikhitha.muthyala@unt.edu)
+Rohita Pingili (rohitapingili@my.unt.edu)
+
+Department of Computer Science, University of North Texas
