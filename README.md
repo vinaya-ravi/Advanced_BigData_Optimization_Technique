@@ -1,15 +1,12 @@
 **Analysis on Optimizing Big Data Processing for Reliability and Performance**<br>
 
 **Overview**<br>
-
 This project investigates multiple optimization techniques aimed at enhancing the performance, reliability, and resilience of big data processing systems. It explores four key techniques—Resource Optimization, Data Partitioning, Load Balancing, and Fault Tolerance—using a synthetic dataset to simulate real-world challenges.
 
 **Project Description**<br>
-
 The project addresses the challenges of high execution times, unbalanced data load, and susceptibility to system failures. A synthetic dataset comprising 1,000 records with features such as user ID, transaction ID, product ID, price, quantity, and timestamps is used to mimic realistic scenarios. Exploratory Data Analysis (EDA) is performed to understand data distributions and relationships, while oversampling with SMOTE is applied to balance class imbalances in the target variable.
 
 **Methodology**<br>
-
 The workflow of the project involves several stages:
 
 **A.Data Loading and EDA:**<br>
@@ -19,11 +16,11 @@ The dataset is loaded and analyzed to identify outliers and visualize key relati
 The core part of the project is the implementation of four optimization techniques:
 
 **Resource Optimization:**<br>
-Multiprocessing is used to execute CPU-intensive tasks in parallel. The dataset is divided into chunks, and operations such as squaring the price values are performed concurrently.
-**Data Partitioning:<br>
-The dataset is split into multiple partitions using PySpark, enabling independent processing across nodes and facilitating parallel computations.
+Multiprocessing is used to execute CPU-intensive tasks in parallel. The dataset is divided into chunks, and operations such as squaring the price values are performed concurrently.<br>
+**Data Partitioning:**<br>
+The dataset is split into multiple partitions using PySpark, enabling independent processing across nodes and facilitating parallel computations.<br>
 **Load Balancing:**<br>
-Data is redistributed evenly across partitions to prevent any single node from becoming overloaded, ensuring smooth and stable performance during processing.
+Data is redistributed evenly across partitions to prevent any single node from becoming overloaded, ensuring smooth and stable performance during processing.<br>
 **Fault Tolerance:**<br>
 By caching the dataset in memory, the system achieves rapid recovery in the event of a failure, thus increasing overall reliability.
 
