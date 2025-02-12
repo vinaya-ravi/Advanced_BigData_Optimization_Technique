@@ -14,6 +14,7 @@ The dataset is loaded and analyzed to identify outliers and visualize key relati
 
 **B.Optimization Techniques:**<br>
 The core part of the project is the implementation of four optimization techniques:<br>
+
 **Resource Optimization:**<br>
 Multiprocessing is used to execute CPU-intensive tasks in parallel. The dataset is divided into chunks, and operations such as squaring the price values are performed concurrently.<br>
 **Data Partitioning:**<br>
